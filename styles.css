@@ -122,3 +122,23 @@ a:active {
     height: 6em;
     width: auto;
 }
+
+@media (max-width: 670px) {
+    .cabecalho {
+        flex-flow: column;
+    }
+
+    .cabecalho span {
+        margin-top: 1em;
+    }
+
+    .cabecalho h2 {
+        margin-top: 1em;
+    }
+
+    .main {
+        flex-flow: column;
+        justify-content: flex-start;
+    }
+  }
+  
