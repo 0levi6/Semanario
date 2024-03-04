@@ -76,8 +76,8 @@ nav a:hover {
 
 .sub-menu-wrap {
     position: absolute;
-    top: 110px;
-    right: 120px;
+    top: 21vh;
+    right: 8%;
     border-radius: 10px;
     max-height: 0px;
     overflow: hidden;
@@ -190,6 +190,15 @@ nav a:hover {
 
     .cabecalho h2 {
         margin-top: 1em;
+    }
+
+    nav h1 {
+        overflow: hidden;
+        visibility:collapse;
+    }
+
+    nav ul {
+        text-align: left;
     }
 
     .main {
