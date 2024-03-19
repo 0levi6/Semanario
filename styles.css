@@ -2,7 +2,6 @@
 
 * {
     font-family: "Pixelify Sans", sans-serif;
-    background-color: rgb(20, 20, 20);
     font-size: 1em;
 }
 
@@ -165,6 +164,26 @@ nav a:hover {
     color: rgb(20, 20, 20);
     word-wrap: break-word;
     width: 200px;
+}
+
+.texto {
+    background-color: aliceblue;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-items: center;
+    text-align: justify;
+}
+
+.texto h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.texto p {
+    font-size: 1.45em;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
 }
 
 .rodape {
