@@ -75,7 +75,7 @@ nav a:hover {
 
 .sub-menu-wrap {
     position: absolute;
-    top: 21vh;
+    top: 17vh;
     right: 8%;
     border-radius: 10px;
     max-height: 0px;
@@ -206,7 +206,6 @@ nav a:hover {
 
 @media (max-width: 670px) {
     .cabecalho {
-        flex-flow: column;
         align-items: right;
     }
 
@@ -227,6 +226,11 @@ nav a:hover {
         text-align: right;
     }
 
+    .sub-menu-wrap {
+        right: 2px;
+        top: 105px;
+    }
+
     .main {
         flex-flow: column;
         justify-content: flex-start;
@@ -236,6 +240,10 @@ nav a:hover {
     .texto h1 {
         font-size: 2.5em;
         text-align: center;
+    }
+
+    .texto p {
+        line-height: 1.5em;
     }
   }
   
