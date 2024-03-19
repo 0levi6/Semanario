@@ -120,7 +120,7 @@ nav a:hover {
     display: flex;
     font-family: "Pixelify Sans", sans-serif;
     background-color: aliceblue;
-    padding: 4em 6em 4em 6em;
+    padding: 3rem 6rem;
     height: auto;
     min-height: 40em;
     justify-content: space-evenly;
@@ -169,21 +169,27 @@ nav a:hover {
 .texto {
     background-color: aliceblue;
     display: flex;
-    flex-flow: column wrap;
-    align-items: flex-start;
+    flex-flow:column;
+    align-items: center;
     justify-items: center;
+    justify-content: baseline;
     text-align: justify;
 }
 
 .texto h1 {
     font-size: 3em;
-    margin-bottom: 1em;
+    margin: 2rem 0;
+    text-align: left;
 }
 
 .texto p {
     font-size: 1.45em;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 10px;
+}
+
+.texto img {
+    height: 70px;
 }
 
 .rodape {
@@ -201,6 +207,7 @@ nav a:hover {
 @media (max-width: 670px) {
     .cabecalho {
         flex-flow: column;
+        align-items: right;
     }
 
     .cabecalho span {
@@ -217,12 +224,18 @@ nav a:hover {
     }
 
     nav ul {
-        text-align: left;
+        text-align: right;
     }
 
     .main {
         flex-flow: column;
         justify-content: flex-start;
+        padding: 1.5em;
+    }
+
+    .texto h1 {
+        font-size: 2.5em;
+        text-align: center;
     }
   }
   
