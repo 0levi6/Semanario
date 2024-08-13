@@ -76,6 +76,9 @@ class ReuseFooter extends HTMLElement {
         <div class="rodape">
             <img src="assets/logo-branco.png" alt="logo-branco">
         </div>
+        <div class="autoria">
+            <h3>by 0levi6</h3>
+        </div>    
         `
     }
 }
