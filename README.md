@@ -7,3 +7,7 @@ O Semanário é uma das atividades realizadas durante a ETED (Escola de treiname
 ## Temática..
 
 Decidi usar uma estética de videogame retrô por gosto pessoal. As pixel-arts e animações foram todas feitas no software de desenho Aseprite.
+
+## Link
+
+https://semanariolevi.netlify.app
